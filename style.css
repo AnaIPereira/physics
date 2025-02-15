@@ -1,0 +1,27 @@
+body {
+    background-image: url('https://source.unsplash.com/1600x900/?galaxy,stars,space'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+nav a {
+    color: #00ffcc;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
