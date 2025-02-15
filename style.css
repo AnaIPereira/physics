@@ -1,5 +1,5 @@
 body {
-    background-image: url('https://wallpapers.com/images/high/galaxy-stars-4k-b84ac0k8quqklczw.webp'); 
+    background-image: url('universe.jpg'); /* Change to your uploaded file */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -9,19 +9,28 @@ body {
     padding: 20px;
 }
 
-header {
-    background: rgba(0, 0, 0, 0.7);
-    padding: 15px;
-    border-radius: 10px;
+nav {
+    display: flex;
+    flex-direction: column; /* Makes links appear in a column */
+    align-items: center; /* Centers the links */
+    gap: 15px; /* Adds space between links */
+    margin-top: 20px;
 }
 
 nav a {
-    color: pink;
-    text-decoration: none;
+    color: #ff00ff; /* Bright pink text */
+    font-size: 40px; /* Bigger text */
     font-weight: bold;
-    margin: 0 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #ff00ff; /* Optional: Adds a pink border */
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
 }
 
 nav a:hover {
-    color: #ffcc00;
+    background: #ff00ff;
+    color: white;
+    transform: scale(1.1); /* Slightly enlarges on hover */
 }
+
